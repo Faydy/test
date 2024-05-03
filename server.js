@@ -6,7 +6,7 @@ const { kStringMaxLength } = require('buffer');
 
 app.set('view engine', 'ejs');
 
-mongoose.connect('mongodb+srv://admin-marina:marinochka90@cluster0.hr1hl.mongodb.net/moviesDB?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://1:Basinica12@luna.ihgdj88.mongodb.net/?retryWrites=true&w=majority&appName=Luna');
 
 const moviesSchema = {
     title: String,
